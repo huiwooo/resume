@@ -1,0 +1,72 @@
+<section class="skill">
+  <div class="sec-title">
+    <h1>技能清单</h1>
+    <div class="underline"></div>
+  </div>
+
+  <ul class="items">
+    <li><h3>Web前端</h3></li>
+    <li><h4>熟悉 JavaScript</h4>
+      <ul class="sub-items">
+        <li>熟悉{{ mark("ECMA") }}规范、{{ mark("DOM API") }} ，能熟练使用{{ mark("原生JS") }}编码</li>
+        <li>熟悉{{ mark("面向对象") }}的 JavaScript，使用过前端{{ mark("模块化") }}方案</li>
+        <li>熟悉{{ mark("React、Vue、jQuery") }}等类库、框架，熟悉 Webpack、Babel，分别编写过它们的 plugin</li>
+      </ul>
+    </li>
+
+    <li><h4>熟悉 HTML&CSS</h4>
+      <ul class="sub-items">
+        <li>能编写语义化的{{ mark("HTML") }}，模块化的{{ mark("CSS") }}，熟悉{{ mark("移动端") }}与PC端差异</li>
+        <li>熟悉常见的浏览器{{ mark("兼容性") }}问题及解决方案，了解 {{ mark("Webp，Sprite，Iconfont") }}等优化方案，了解{{ mark("flex") }}布局</li>
+        <li>熟悉 {{ mark("HTML5") }} 特性，熟悉 {{ mark("CSS3") }} 特性及{{ mark("动画") }}制作</li>
+        <li>熟悉 Postcss、CSS modules、H5 rem 等方案</li>
+      </ul>
+    </li>
+
+    <li><h4>其它</h4>
+      <ul class="sub-items">
+        <li>使用 {{ mark("Gulp") }} 等{{ mark("前端自动化") }}工作流</li>
+        <li>关注移动端{{ mark("首屏") }}加载及{{ mark("用户交互体验") }}，了解{{ mark("前端安全、性能优化") }}</li>
+        <li>喜欢关注新技术，尝试使用过 RN、React 全家桶、Vue 全家桶等开发方案</li>
+      </ul>
+    </li>
+
+  </ul>
+
+  <ul class="items">
+    <li><h3>Web后端</h3></li>
+
+    <li><h4>熟悉 Node.js</h4>
+      <ul class="sub-items">
+        <li>熟悉{{ mark("ES6、7") }}标准，能用 {{ mark("Node.js") }} 编写鲁棒的后端代码，了解异步 I/O 及事件驱动的服务器模型，掌握常见的 {{ mark("异步编程") }} 解决方案</li>
+        <li>能使用 {{ mark("Koa、Express、Thinkjs") }} 等流行方案开发 Web Server，简单了解并编写过 C++ 模块，有使用 Mysql、Mongo、Redis 等数据库的经验</li>
+        <li>能用 Mocha + Chai 编写简单的{{ mark("单元测试") }}</li>
+      </ul>
+    </li>
+
+    <li><h4>其它</h4>
+      <ul class="sub-items">
+        <li>能使用 {{ mark("Apache/PHP") }} 方案搭建简单的的 Web Server，熟悉服务端 MVC，能使用 ThinkPHP 框架编写应用</li>
+        <li>尝试过 Rails，了解 HTTP、 TCP、 WebSocket 等协议</li>
+      </ul>
+    </li>
+
+    <li><h3>运维&其它</h3>
+      <ul class="sub-items">
+        <li>熟悉 {{ mark("*nix") }}，了解常用 {{ mark("Linux") }} 命令及运维方法，有管理运维多台服务器的经验</li>
+        <li>熟悉 {{ mark("科学上网") }}，常年FQ，默认谷歌；能查询并阅读英文文档</li>
+        <li>熟悉 {{ mark("Git") }} 基本命令，了解 SVN，有 Github 开源作品</li>
+        <li>以 {{ mark("OS X") }} 为日常工作环境，使用 WebStorm，Sublime 进行开发，使用{{ mark("Markdown") }}进行日常写作</li>
+      </ul>
+    </li>
+
+    <li><h3>人事管理</h3>
+      <ul class="sub-items">
+        <li>原校红岩网校工作站{{ mark("Web研发部部长") }}，成立于2000年的互联网团队，共有成员70余人(Web研发部21人)，拥有PRD-UI-前后端开发-运营-迭代的完整开发流程。</li>
+        <li>负责部门内人事调配，项目分配，项目进度跟踪，召开周会，学员培训，服务器维护等工作。</li>
+      </ul>
+    </li>
+  </ul>
+
+</section>
+

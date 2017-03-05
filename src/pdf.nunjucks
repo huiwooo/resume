@@ -1,0 +1,33 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% macro mark(string) %}
+  <span class="mark">{{ string }}</span>
+{% endmacro %}
+
+{% block stylesheets %}
+  <style>
+    .main-container {margin: 0 auto; padding: 23px 35px; box-shadow: none;}
+    .pdf-download {display: none;}
+    .subfield .items li {margin-bottom: 0;}
+  </style>
+{% endblock %}
+
+{% block content %}
+<div class="main-container">
+  {% include "_modules/header/header.nunjucks" %}
+  <div class="line"></div>
+  <div class="subfield">
+    <div class="left">
+      {% include "_modules/basic/basic.nunjucks" %}
+      {% include "_modules/work/work.nunjucks" %}
+    </div>
+    <div class="right">
+      {% include "_modules/skill/skill.nunjucks" %}
+    </div>
+  </div>
+</div>
+<a class="pdf-download" href="/前端-刘晨凌.pdf">
+  <i class="icon iconfont">&#xe60d;</i>
+  <span>PDF简历</span>
+</a>
+{% endblock %}

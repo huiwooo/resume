@@ -1,0 +1,68 @@
+<section class="work">
+  <div class="sec-title">
+    <h1>主要项目与工作经验</h1>
+    <div class="underline"></div>
+  </div>
+
+  <ul class="items">
+    <li><h3>淘宝 FED (杭)</h3> 前端实习(2016年6月-11月)</li>
+
+    <li><h4>企业级泛后台应用解决方案</h4>
+      <ul class="sub-items">
+        <li>基于 React 提供淘宝风格化的组件，完整的页面解决方案</li>
+        <li>项目核心团队成员，参与业务组件建设、SDK 体系建设、质量稳定（监控）方案落地等</li>
+        <li>在编译优化、React 组件方案、IE 兼容性等方面积累了一些经验</li>
+      </ul>
+    </li>
+
+    <li><h4>参与双促稳定性保障小组</h4>
+      <ul class="sub-items">
+        <li>针对双十一、双十二成立的保障业务系统稳定性为目的小组，产出了一系列技术、制度上的方案保障了双促期间淘宝、手淘业务的 100% 稳定性</li>
+      </ul>
+    </li>
+
+    <li><h3>支付宝终端技术团队 (杭)</h3> 前端实习(2015年7月-9月)</li>
+
+    <li><h4>全民开店项目</h4>
+      <ul class="sub-items">
+        <li>无线端H5项目，根据 UI 完成大部分主要页面（包括引导页、首页）。以 Hybrid App 的形式运行在支付宝 App 上，调用容器接口使用 Native 能力，含定位，异步 rpc ，本地缓存等复杂交互逻辑。</li>
+        <li>短期完成多次需求更改，使用 Fis 工作流，CSS3 动画，LESS 编写模块化样式，关注首屏时间及移动端交互优化</li>
+        <li>2015年9月30日上线，作为口碑战略级项目，直到2016年2月底下线，累计{{ mark("访问量上亿") }}</li>
+      </ul>
+    </li>
+
+    <li><h4>ChinaJoy支付宝展台投屏及相关活动页</h4>
+      <ul class="sub-items">
+        <li>使用 Node.js 协助运营和视觉批量处理原始图片，使用 Grunt 工作流，短时间(2天)内完成大部分需求</li>
+        <li>完成 2 个 PC 端页面和 1 个 H5 页面，使用雪碧、缓存、WebP 等压缩首屏时间，提高弱网体验</li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul class="items">
+    <li><h3>红岩网校(2013-2016)</h3> Web研发部部长(2015-2016)</li>
+
+    <li><h4> 重邮小帮手</h4>(校团委官方微信服务号)
+      <ul class="sub-items">
+        <li>校内学生关注率第一(90%+)的公众号</li>
+        <li>主管功能开发及人员调配，主持使用 PHP 完成第一版服务端框架搭建，使用 Github 协同开发</li>
+        <li>负责与教务处对接服务端接口，以及 API 维护</li>
+        <li>负责查课表业务开发 <a class="icon-demo" href="http://hongyan.cqupt.edu.cn/MagicLoop/index.php?s=/addon/CourseTable/CourseTable/index/openid/ouRCyjsp3eo3FJil24fV625V_6no/token/gh_68f0a1ffc303.html" target="_blank">Demo</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul class="items">
+    <li><h4> 四六级成绩查询</h4>
+      <a class="icon-demo" href="http://cet.redrock-team.com/" target="_blank">Demo</a>
+      <a class="icon-demo" href="https://github.com/wssgcg1213/cetb" target="_blank">Source</a>
+      <ul class="sub-items">
+        <li>个人开发并提供给<a href="http://weixiao.qq.com/" target="_blank">{{ mark("腾讯微校") }}</a>的面向全国用户的四六级成绩查询全栈应用，独家提供了无准考证查询功能。</li>
+        <li>前端是 SPA，使用了Vue.js；后端使用 thinkjs 框架，尝试编写了一个 C++ 模块调用系统的 OpenSSL 库，使用redis缓存优化 QPS。</li>
+        <li>部署采用了腾讯云赞助的VPS*5+SLB 负载均衡，pm2 部署，oneapm 监控服务器报警，又拍云 CDN，最高日PV{{ mark("250W") }}，为超过{{ mark("两百万大学生") }}提供了成绩查询服务。</li>
+      </ul>
+    </li>
+  </ul>
+
+</section>
+
